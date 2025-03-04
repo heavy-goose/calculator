@@ -111,3 +111,11 @@ main {
 .active {
     background-color: rgb(255, 94, 0);
 }
+
+.number-key, .operator-key {
+    cursor: pointer;
+    /* disable accidental text-selection on buttons */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
